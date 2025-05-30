@@ -66,7 +66,7 @@ pip install pytesseract pdf2image pillow
 2. Run the script:
 
 ```bash
-python ocr_script.py
+python main.py
 ```
 
 3. Select which PDF to process by typing the corresponding number.
@@ -80,7 +80,7 @@ Optionally, you can create a `.exe` using PyInstaller:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile ocr_script.py
+pyinstaller --onefile main.py
 ```
 
 The executable will be in the `dist` folder.
